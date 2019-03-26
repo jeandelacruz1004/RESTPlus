@@ -29,7 +29,7 @@ class TestingConfig(Config):
 class ProductionConfig(Config):
     DEBUG = False
     # uncomment the line below to use postgres
-     SQLALCHEMY_DATABASE_URI = 'postgresql://postgres:password@localhost:5432/RESTPlus'
+    SQLALCHEMY_DATABASE_URI = 'postgresql://postgres:password@localhost:5432/RESTPlus'
 
 
 config_by_name = dict(
