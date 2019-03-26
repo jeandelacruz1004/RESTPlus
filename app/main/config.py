@@ -1,7 +1,7 @@
 import os
 
 
-postgres_local_base = 'postgresql://postgres:password@localhost:5432/FlaskRestPlus'
+postgres_local_base = 'postgresql://postgres:password@localhost:5432/RESTPus'
 
 basedir = os.path.abspath(os.path.dirname(__file__))
 
